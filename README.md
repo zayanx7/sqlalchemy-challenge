@@ -17,6 +17,10 @@ Calculation of temperature statistics.
 Creation of temperature observation histograms.
 The analysis results are used to answer specific questions and generate insights about the climate in Honolulu.
 
+The visualisations where also saved in a Output folder.
+![Precipitation](https://github.com/zayanx7/sqlalchemy-challenge/blob/main/SurfsUp/Output/Precipitation.png)
+![Temperature_data](https://github.com/zayanx7/sqlalchemy-challenge/blob/main/SurfsUp/Output/Temperature_data.png)
+
 ### API
 A Flask API is created to provide access to the analysis results through web-based endpoints.
 The following routes are defined in the API:
