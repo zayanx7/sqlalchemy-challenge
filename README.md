@@ -20,9 +20,15 @@ The analysis results are used to answer specific questions and generate insights
 ### Flask API
 A Flask API is created to provide access to the analysis results through web-based endpoints.
 The following routes are defined in the API:
+
 /api/v1.0/precipitation - Retrieves precipitation data for the last 12 months.
+
 /api/v1.0/stations - Lists all available weather stations.
+
 /api/v1.0/tobs - Retrieves temperature observations for the most active station in the last year.
+
 /api/v1.0/<start> - Provides temperature statistics (TMIN, TAVG, TMAX) for dates greater than or equal to a specified start date.
+
 /api/v1.0/<start>/<end> - Provides temperature statistics for a specified date range.
+
 The API returns data in JSON format.
