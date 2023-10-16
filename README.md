@@ -27,8 +27,8 @@ The following routes are defined in the API:
 
 /api/v1.0/tobs - Retrieves temperature observations for the most active station in the last year.
 
-"/api/v1.0/start" - Provides temperature statistics (TMIN, TAVG, TMAX) for dates greater than or equal to a specified start date.
+/api/v1.0/start - Provides temperature statistics (TMIN, TAVG, TMAX) for dates greater than or equal to a specified start date.
 
-"/api/v1.0/start/end" - Provides temperature statistics for a specified date range.
+/api/v1.0/start/end - Provides temperature statistics for a specified date range.
 
 The API returns data in JSON format.
