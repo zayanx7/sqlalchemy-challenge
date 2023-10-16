@@ -17,7 +17,7 @@ Calculation of temperature statistics.
 Creation of temperature observation histograms.
 The analysis results are used to answer specific questions and generate insights about the climate in Honolulu.
 
-### Flask API
+### API
 A Flask API is created to provide access to the analysis results through web-based endpoints.
 The following routes are defined in the API:
 
